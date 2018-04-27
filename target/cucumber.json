@@ -1,0 +1,1067 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Am on the home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I click on my account link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I see a welcome message displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "id": "login-test;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I entered valid email and password in the text field",
+            "match": {
+              "location": "Checkout.i_entered_valid_email_and_password_in_the_text_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I select a product to add to cart",
+            "match": {
+              "location": "Checkout.i_select_a_product_to_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I proceed to checkout for cash on delivery",
+            "match": {
+              "location": "Checkout.i_proceed_to_checkout_for_cash_on_delivery()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I should see confirm order",
+            "match": {
+              "location": "Checkout.i_should_see_confirm_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I logoff my account",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "Checkout.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Am on the home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I click on my account link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I see a welcome message displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "As a user I want to be able to login using diferent username and password",
+        "description": "",
+        "id": "login-test;as-a-user-i-want-to-be-able-to-login-using-diferent-username-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I entered valid \"testof682@yahoo.com\" email in the text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testof682@yahoo.com",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.i_entered_valid_email_in_the_text_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I entered correct \"Password27\" password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password27",
+                  "offset": 19
+                }
+              ],
+              "location": "Login.i_entered_correct_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click on the signin button",
+            "match": {
+              "location": "Login.i_click_on_the_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I verify that I am logged in",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I log out",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I close the browser",
+            "match": {
+              "location": "Login.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Am on the home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I click on my account link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I see a welcome message displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "As a user I want to be able to login using diferent username and password",
+        "description": "",
+        "id": "login-test;as-a-user-i-want-to-be-able-to-login-using-diferent-username-and-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I entered valid \"testof742@yahoo.com\" email in the text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testof742@yahoo.com",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.i_entered_valid_email_in_the_text_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I entered correct \"Password325\" password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password325",
+                  "offset": 19
+                }
+              ],
+              "location": "Login.i_entered_correct_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click on the signin button",
+            "match": {
+              "location": "Login.i_click_on_the_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I verify that I am logged in",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I log out",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I close the browser",
+            "match": {
+              "location": "Login.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Am on the home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I click on my account link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I see a welcome message displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "As a user I want to be able to login using diferent username and password",
+        "description": "",
+        "id": "login-test;as-a-user-i-want-to-be-able-to-login-using-diferent-username-and-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I entered valid \"testof173@yahoo.com\" email in the text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testof173@yahoo.com",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.i_entered_valid_email_in_the_text_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I entered correct \"Password325\" password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password325",
+                  "offset": 19
+                }
+              ],
+              "location": "Login.i_entered_correct_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click on the signin button",
+            "match": {
+              "location": "Login.i_click_on_the_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I verify that I am logged in",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I log out",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I close the browser",
+            "match": {
+              "location": "Login.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Am on the home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I click on my account link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I see a welcome message displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "As a user I want to login with invalid credentials I should not be allowed to login.",
+        "description": "",
+        "id": "login-test;as-a-user-i-want-to-login-with-invalid-credentials-i-should-not-be-allowed-to-login.;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I entered wrong \"tesf778@hotmail.com\" address in the email text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tesf778@hotmail.com",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.i_entered_wrong_address_in_the_email_text_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I input invalid \"Password27\" password or blank password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password27",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.i_input_invalid_password_or_blank_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I click the signIn button",
+            "match": {
+              "location": "Login.i_click_the_signIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I should see error message displayed",
+            "match": {
+              "location": "Login.i_should_see_error_message_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "I log out",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Am on the home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I click on my account link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I see a welcome message displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "As a user I want to login with invalid credentials I should not be allowed to login.",
+        "description": "",
+        "id": "login-test;as-a-user-i-want-to-login-with-invalid-credentials-i-should-not-be-allowed-to-login.;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I entered wrong \"\" address in the email text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.i_entered_wrong_address_in_the_email_text_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I input invalid \"Password325\" password or blank password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password325",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.i_input_invalid_password_or_blank_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I click the signIn button",
+            "match": {
+              "location": "Login.i_click_the_signIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I should see error message displayed",
+            "match": {
+              "location": "Login.i_should_see_error_message_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "I log out",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Am on the home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I click on my account link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I see a welcome message displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "As a user I want to login with invalid credentials I should not be allowed to login.",
+        "description": "",
+        "id": "login-test;as-a-user-i-want-to-login-with-invalid-credentials-i-should-not-be-allowed-to-login.;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I entered wrong \"testof682@yahoo.com\" address in the email text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testof682@yahoo.com",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.i_entered_wrong_address_in_the_email_text_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I input invalid \"paswork325\" password or blank password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "paswork325",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.i_input_invalid_password_or_blank_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I click the signIn button",
+            "match": {
+              "location": "Login.i_click_the_signIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I should see error message displayed",
+            "match": {
+              "location": "Login.i_should_see_error_message_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "I log out",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Am on the home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I click on my account link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I see a welcome message displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 34,
+        "name": "As a user I want to login with invalid credentials I should not be allowed to login.",
+        "description": "",
+        "id": "login-test;as-a-user-i-want-to-login-with-invalid-credentials-i-should-not-be-allowed-to-login.;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "I entered wrong \"testof173@yahoo.com\" address in the email text field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testof173@yahoo.com",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.i_entered_wrong_address_in_the_email_text_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I input invalid \"\" password or blank password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 17
+                }
+              ],
+              "location": "Login.i_input_invalid_password_or_blank_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I click the signIn button",
+            "match": {
+              "location": "Login.i_click_the_signIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I should see error message displayed",
+            "match": {
+              "location": "Login.i_should_see_error_message_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "I log out",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "register-test;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Am on the home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I click on my account link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I see a welcome message displayed",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I click the continue button",
+            "match": {
+              "location": "Register.i_click_the_continue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I filled the mandatory fields to register",
+            "match": {
+              "location": "Register.i_filled_the_mandatory_fields_to_register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I click continue after filling the mandatory fieds",
+            "match": {
+              "location": "Register.i_click_continue_after_filling_the_mandatory_fieds()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I should be logged in",
+            "match": {
+              "location": "Register.i_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I log out",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Register Test",
+    "description": "",
+    "id": "register-test",
+    "keyword": "Feature",
+    "uri": "Register.feature"
+  }
+]

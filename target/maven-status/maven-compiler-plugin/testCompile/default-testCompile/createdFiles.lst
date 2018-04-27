@@ -1,0 +1,16 @@
+step_Definitions\Login.class
+pageObjects\RegisterPage.class
+pageObjects\ShoppingPage.class
+pageObjects\CheckoutPage.class
+pageObjects\LogoffPage.class
+modules\TestBase.class
+pageObjects\ProductPage.class
+step_Definitions\Checkout.class
+pageObjects\LandingPage.class
+pageObjects\LoginPage.class
+step_Definitions\Register.class
+pageObjects\AccountSuccessPage.class
+pageObjects\MyBaseClass.class
+pageObjects\Homepage.class
+pageObjects\SearchPage.class
+step_Definitions\RunnerTest.class
