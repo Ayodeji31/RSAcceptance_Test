@@ -30,7 +30,7 @@ public class DeliveryDetailsPage extends MyBaseClass{
 	@FindBy(how=How.XPATH, using= "//*[@id='deliveryCollectionForm:GuestDeliveryAddressWidgetAction_addressLineOne_decorate:GuestDeliveryAddressWidgetAction_addressLineOne']")
 	public static WebElement Delivery_Address;
 	
-	@FindBy(how=How.CSS, using= "#deliveryCollectionForm\3a GuestDeliveryAddressWidgetAction_addressLineThree_decorate\3a GuestDeliveryAddressWidgetAction_addressLineThree")
+	@FindBy(how=How.ID, using= "deliveryCollectionForm:GuestDeliveryAddressWidgetAction_addressLineThree_decorate:GuestDeliveryAddressWidgetAction_addressLineThree")
 	public static WebElement Towny_Address;
 	
 	@FindBy(how=How.NAME, using= "deliveryCollectionForm:GuestDeliveryAddressWidgetAction_selectedRegion_decorate:selectedRegion")
